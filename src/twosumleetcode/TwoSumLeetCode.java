@@ -37,6 +37,10 @@ public class TwoSumLeetCode
 
     private static int[] getAnswer(int sum[], int target ) 
     {
+        // this wil run each numebr in the array against eachother  
+        // to check which two numbers will make up the 
+        // target number, then will reutrn the index value
+        // for the positionoing of the numbers in the array
       for (int x = 0; x < sum.length; x++) 
         {
             for (int y = x + 1; y < sum.length; y++) 
